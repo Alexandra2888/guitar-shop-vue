@@ -25,14 +25,14 @@
             <div class="row justify-content-center justify-content-md-between">
                 <div class="col-8 col-md-3">
                     <a href="index.html">
-                        <img class="img-fluid" src="./../../../../public/img/logo.svg" alt="img logo">
+                        <img class="img-fluid" src="/img/logo.svg" alt="img logo">
                     </a>
                 </div>
                 <nav class="col-md-6 a mt-5 d-flex align-items-start justify-content-end">
                     <div 
                         class="cart"
                     >
-                        <img class="img-fluid" src="../../../../public/img/cart.png" alt="img cart" />
+                        <img class="img-fluid" src="/img/cart.png" alt="img cart" />
     
                         <div id="cart" class="bg-white p-3">
                             <p v-if="cart.length === 0" class="text-center m-0">
@@ -121,8 +121,6 @@
                     >Add in Cart</button>
                 </div>
             </div>
-        </div>
-    
-        <img class="header-guitar" src="../../../assets/img/header_guitar.png" alt="img header">
+        </div>    
     </header>
 </template>
